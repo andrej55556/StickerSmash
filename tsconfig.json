@@ -3,10 +3,9 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+      "@/*": ["./*"]
+    },
+    "jsx": "react" // Используйте "react-jsx", если вы работаете с React 17+ и хотите использовать автоматический runtime
   },
   "include": [
     "**/*.ts",
